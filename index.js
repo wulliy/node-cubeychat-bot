@@ -1,6 +1,8 @@
 // cubey should really protect his sockets better kmao
 // too many variables :dead: :skull: :troll:
 
+// cubey.db will be made automatically if not found
+
 const WebSocket = require("ws")
 const flatfile = require("flat-file-db")
 const fetch = require("node-fetch")
